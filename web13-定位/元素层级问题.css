@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.one {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: pink;
+}
+
+.two {
+    position: absolute;
+    background-color: #409EFF;
+}

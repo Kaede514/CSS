@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+    background-color: pink;
+    background-image: url(../image/taobao.png);
+    /* 背景图位置属性，改变背景图的位置 */
+    background-position: -3px 0;
+}
+
+b {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background-color: pink;
+    background-image: url(../image/taobao.png);
+    background-position: 0 -90px;
+}

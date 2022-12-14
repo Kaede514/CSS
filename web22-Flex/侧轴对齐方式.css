@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div {
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #409EFF;
+}
+
+div > div {
+    width: 100px;
+    background-color: #27ba9b;
+}
+
+.box {
+    align-items: center;
+}
+.box div {
+    height: 100px;
+}
+
+.box1 {
+    align-items: stretch;
+}
+.box1 div:last-child {
+    height: 100px;
+    align-self: center;
+}

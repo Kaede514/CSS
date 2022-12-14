@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div {
+    display: flex;
+    height: 110px;
+    margin-bottom: 10px;
+    border: 1px solid #409EFF;
+}
+
+div > div {
+    width: 100px;
+    height: 100px;
+    background-color: #27ba9b;
+}
+
+.box {
+    justify-content: center;
+}
+
+.box1 {
+    justify-content: space-around;
+}
+
+.box2 {
+    justify-content: space-between;
+}
+
+.box3 {
+    justify-content: space-evenly;
+}

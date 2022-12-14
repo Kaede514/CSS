@@ -1,0 +1,18 @@
+.father {
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+}
+
+.father::before {
+    content: url("../image/img.png");
+}
+
+.father::after {
+    color: #409EFF;
+    content: "after";
+    line-height: 1;
+    display: block;
+    width: 200px;
+    background-color: #80D0C7;
+}

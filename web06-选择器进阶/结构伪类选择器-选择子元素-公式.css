@@ -1,0 +1,15 @@
+.one li:nth-child(2n+1) {
+    background-color: pink;
+}
+
+.one li:nth-of-type(even) {
+    background-color: #409EFF;
+}
+
+.two li:nth-of-type(-n+2){
+    background-color: pink;
+}
+
+.two li:nth-of-type(n+4) {
+    background-color: #409EFF;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
+
+.father2 input {
+    vertical-align: top;
+}

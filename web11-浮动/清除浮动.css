@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 400px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+.bottom {
+    height: 100px;
+    background-color: #409EFF;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    height: 200px;
+    background-color: gray;
+}
+
+.right {
+    float: right;
+    width: 290px;
+    height: 200px;
+    background-color: #80D0C7;
+}

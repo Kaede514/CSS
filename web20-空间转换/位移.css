@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    transform: translateZ(200px);
+}
+
+body {
+    perspective: 800px;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    height: 160px;
+    border: 1px solid #409EFF;
+}
+
+.box div {
+    margin: 0 20px;
+    height: 100px;
+    background-color: #27ba9b;
+}
+
+.box div:nth-child(1) {
+    width: 50px;
+}
+
+.box div:nth-child(2) {
+    flex: 1;
+}
+
+.box div:nth-child(3) {
+    flex: 2;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1366px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(./image/bg.jpg);
+    overflow: hidden;
+}
+
+.box::before,
+.box::after {
+    float: left;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background-image: url(./image/fm.jpg);
+    transition: all 0.8s;
+}
+
+.box::after {
+    /* right表示要图片的右边部分 */
+    background-position: right 0;
+}
+
+.box:hover::before {
+    transform: translate(-100%);
+}
+
+.box:hover::after {
+    transform: translate(100%);
+}

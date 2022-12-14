@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.box {
+    width: 400px;
+    height: 289px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.box li {
+    position: relative;
+}
+
+.box li:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(8);
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(./image/play.png);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.box li:hover::after {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}

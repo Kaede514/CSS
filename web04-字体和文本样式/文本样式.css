@@ -1,0 +1,36 @@
+p {
+    text-indent: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+img, div {
+    text-align: center;
+}
+
+.a1 {
+    text-decoration: red line-through;
+}
+
+.a2 {
+    text-decoration: overline;
+}
+
+.a3 {
+    text-decoration: none;
+}
+
+.p1 {
+    line-height: 1;
+}
+
+.p2 {
+    font: 16px/2 微软雅黑 Consolas sans-serif;
+}
+
+.p3 {
+    line-height: 2;
+    font: 16px 微软雅黑 Consolas sans-serif;
+}

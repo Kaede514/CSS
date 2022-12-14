@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="Keywords" content="">
+
+	<title>确认订单</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./lib/iconfont/iconfont.css">
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+
+	<!-- 主体内容：滑动查看 -->
+	<div class="main">
+		<!-- 用户信息 -->
+		<div class="userInfo pannel">
+			<div class="location iconfont icon-location"></div>
+			<div class="user">
+				<!-- 从后台传输的数据需要通过标签显示在页面上 -->
+				<div class="top">
+					<h5>林丽</h5>
+					<p>18500667882</p>
+				</div>
+				<div class="bottom">北京市&#12288;海淀区&#12288;中关村软件园&#12288;信息科技大厦1号楼410#</div>
+			</div>
+			<div class="more iconfont icon-more"></div>
+		</div>
+		<!-- 商品信息 -->
+		<div class="goods pannel">
+			<div class="pic">
+				<a href="#"><img src="./upload/pic.png" alt=""></a>
+			</div>
+			<div class="info">
+				<h5>康尔背 非接触式红外体温仪</h5>
+				<h5>领券立减33元 婴儿级材质 测温舒适</h5>
+				<p><span>粉色</span><span>红色体温计</span></p>
+				<div class="price">
+					<span class="red">&yen;<i>266</i></span><span>&yen;<i>299</i></span>
+				</div>
+			</div>
+			<div class="count">
+				<i class="iconfont icon-x"></i><span>1</span>
+			</div>
+		</div>
+		<!-- 其他信息 -->
+		<section class="other pannel">
+			<div>
+				<h5>配送方式</h5>
+				<p>顺丰快递</p>
+			</div>
+			<div>
+				<h5>买家备注</h5>
+				<span>希望可以尽快发货，谢谢~</span>
+			</div>
+			<div>
+				<h5>支付方式</h5>
+				<p>支付宝<a href="#" class="iconfont icon-more"></a></p>
+			</div>
+		</section>
+	</div>
+
+	<!-- 底部支付：固定定位 -->
+	<div class="pay">
+		<div class="left">
+			合计：<span class="red">&yen;<i>266.00</i></span>
+		</div>
+		<div class="right">
+			<a href="#">去支付</a>
+		</div>
+	</div>
+
+</body>
+</html>

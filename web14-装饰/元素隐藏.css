@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 100px;
+}
+
+.one {
+    background-color: pink;
+    visibility: hidden;
+}
+
+.two {
+    background-color: #409EFF;
+}
+
+.three {
+    background-color: #80D0C7;
+    display: none;
+}
+
+.four {
+    background-color: pink;
+}
+
+.five {
+    position: relative;
+    background-color: #409EFF;
+}
+
+.five .son {
+    display: none;
+    width: 100px;
+    height: 50px;
+    background-color: #80D0C7;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+}
+
+.five:hover .son {
+    display: block;
+}

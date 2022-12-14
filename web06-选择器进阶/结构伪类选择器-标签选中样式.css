@@ -1,0 +1,25 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #409EFF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #2c8585;
+}
+
+p {
+    color: orange;
+}
+
+p:hover {
+    color: darkcyan;
+}
+
+p:active {
+    color: yellow;
+}

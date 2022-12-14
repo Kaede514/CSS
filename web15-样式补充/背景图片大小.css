@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-image: url(../image/3.png);
+}
+
+.box1 {
+    background-size: 400px 280px;
+}
+
+.box2 {
+    background-size: 50% 50%;
+}
+
+.box3 {
+    background-size: contain;
+}
+
+.box4 {
+    background-size: cover;
+}

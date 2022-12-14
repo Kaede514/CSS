@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 140px;
+    height: 140px;
+    background-image: url(./image/bg.png);
+    animation: move 1s steps(12) infinite, run 4s 1s forwards;
+}
+
+@keyframes move {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1680px 0;
+    }
+}
+
+@keyframes run {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(800px);
+    }
+}

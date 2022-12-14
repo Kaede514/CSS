@@ -1,0 +1,16 @@
+.color1 {
+    color: #33af31;
+    opacity: 0.6;
+}
+
+.color2 {
+    color: rgb(128,50,40);
+}
+
+.color3 {
+    color: rgba(30,30,200,0.4);
+}
+
+.color4 {
+    color: #409EFF;
+}

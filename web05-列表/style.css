@@ -1,0 +1,25 @@
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul:nth-of-type(1) li {
+    background-color: pink;
+    list-style: none;
+}
+
+ul:nth-of-type(2) li {
+    background-color: pink;
+    list-style: upper-roman;
+}
+
+ul:nth-of-type(3) li {
+    background-color: pink;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul:nth-of-type(4) li {
+    background-color: pink;
+    list-style: url("../image/img.png");
+}

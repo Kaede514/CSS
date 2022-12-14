@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    margin: 100px auto;
+    perspective: 800px;
+}
+
+.box img {
+    width: 300px;
+    transition: all 2s;
+}
+
+.box img:hover {
+    transform: rotateX(60deg);
+}
+

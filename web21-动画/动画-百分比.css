@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #409EFF;
+    margin: 50px auto;
+    animation: change-size 2s;
+}
+
+@keyframes change-size {
+    0% {
+        width: 200px;
+    }
+    50% {
+        width: 500px;
+        height: 300px;
+    }
+    100% {
+        width: 800px;
+        height: 500px;
+    }
+}

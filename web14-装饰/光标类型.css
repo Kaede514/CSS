@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    cursor: default;
+}
+
+.div2 {
+    cursor: pointer;
+}
+
+.div3 {
+    cursor: text;
+}
+
+.div4 {
+    cursor: move;
+}
+
+.div5 {
+    cursor: url("../image/favicon.ico"), auto;
+}

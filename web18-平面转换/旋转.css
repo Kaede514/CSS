@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;
+    border: 1px solid #000000;
+    transition: all 0.6s;
+    transform-origin: right center;
+}
+
+img:hover {
+    transform: rotate(180deg);
+}

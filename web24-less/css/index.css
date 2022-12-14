@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ee9900;
+}
+.box {
+  width: 1.81333333rem;
+  height: 0.90666667rem;
+}
+.box .son {
+  background-color: pink;
+  color: #409EFF;
+}
+.box:hover {
+  background-color: #409EFF;
+}

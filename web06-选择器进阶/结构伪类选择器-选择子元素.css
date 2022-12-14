@@ -1,0 +1,19 @@
+body ul li:first-child{
+    color: green;
+    font-size: 30px;
+}
+
+ul li:last-child{
+    color: red;
+    font-size: 30px;
+}
+
+p:nth-child(3), p:nth-child(4){
+    color: #409EFF;
+    font-size: 30px;
+}
+
+p:nth-of-type(4) {
+    background: cadetblue;
+    font-size: 30px;
+}

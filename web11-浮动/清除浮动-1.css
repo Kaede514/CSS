@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 400px;
+    margin: 0 auto;
+    background-color: pink;
+    overflow: hidden;
+}
+
+/*方式1.2*/
+/*.clearfix {
+    clear: both;
+}*/
+
+/* 方式2 */
+/* .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    !* 补充代码，在页面中看不到伪元素 *!
+    height: 0;
+    visibility: hidden;
+} */
+
+/* 方式3 */
+/* .clearfix::before用于解决外边距塌陷问题 */
+/* .clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+} */
+
+.bottom {
+    height: 100px;
+    background-color: #409EFF;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    height: 200px;
+    background-color: gray;
+}
+
+.right {
+    float: right;
+    width: 290px;
+    height: 200px;
+    background-color: #80D0C7;
+}

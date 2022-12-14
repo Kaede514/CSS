@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.box {
+    transition: all 500ms;
+}
+
+.box:hover {
+    width: 400px;
+    background-color: #409EFF;
+}
+
+.box2:hover {
+    transition: width 1s, height 1s;
+    width: 400px;
+    height: 400px;
+    background-color: #80D0C7;
+}

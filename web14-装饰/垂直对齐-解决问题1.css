@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    height: 50px;
+}
+
+.div1 img {
+    vertical-align: middle;
+}
+
+.div1 button {
+    vertical-align: middle;
+}

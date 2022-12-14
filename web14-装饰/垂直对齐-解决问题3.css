@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    background-color: pink;
+}
+
+.father2 img {
+    /* 方式一 */
+    /* vertical-align: middle; */
+    /* 方式二(inline-block不行) */
+    display: block;
+}

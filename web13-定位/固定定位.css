@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test {
+    width: 600px;
+    height: 200px;
+    background-color: pink;
+}
+
+.box {
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #409EFF;
+}
