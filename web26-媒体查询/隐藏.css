@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.left {
+    width: 300px;
+    min-height: 500px;
+    background-color: #409EFF;
+}
+
+.main {
+    flex: 1;
+    min-height: 500px;
+    background-color: pink;
+}
+
+/* 认为是移动端 */
+@media (max-width: 768px) {
+    .box .left {
+        display: none;
+    }
+}

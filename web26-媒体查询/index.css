@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #999999;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .box {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 1001px) {
+    .box {
+        background-color: #409EFF;
+    }
+}
